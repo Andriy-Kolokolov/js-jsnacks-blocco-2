@@ -21,19 +21,20 @@
 				<div class="input-group flex-nowrap">
 					<span class="input-group-text" id="addon-wrapping">Number:</span>
 					<input type="number" class="form-control"
-							placeholder="Insert a number. Only odd nums will be added to array" aria-label="Username"
-							aria-describedby="addon-wrapping">
+							placeholder="Insert a number. Only odd nums will be added to array" aria-label="number"
+							aria-describedby="addon-wrapping"
+							id="field-input-num">
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-6 d-flex flex-row-reverse">
-				<button class="btn btn-primary p-2 fs-3 mt-4">
+				<button class="btn btn-primary p-2 fs-3 mt-4" id="btn-add-number">
 					ADD NUMBER
 				</button>
 			</div>
 			<div class="col-2 me-auto">
-				<div id="log-outcome" class="outcome bg-light p-2 fs-3 mt-4">
+				<div id="log-outcome" class="outcome bg-light p-2 mt-4 rounded-2">
 					---
 				</div>
 			</div>
@@ -44,7 +45,7 @@
 				ARRAY CONTENT:
 			</div>
 			<div class="col-10">
-				<div class="arrElement">3, 4, 2, 3, 4</div>
+				<div id="array-content"></div>
 			</div>
 		</div>
 	</div>
